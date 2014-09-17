@@ -3,4 +3,4 @@ function! uuid#getUUID()
        	:execute "normal i" . pyeval('str(uuid.uuid4())')	
 endfunction
 
-noremap <Leader>uuid :call uuid#getUUID()<CR>
+noremap <Leader>u4 :call uuid#getUUID()<CR>
